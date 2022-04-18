@@ -12,7 +12,6 @@ namespace Entidades
             this.Numero = "0";
         }
         public Operando(string strNumero)
-            : this()
         {
             this.Numero = strNumero;
         }
@@ -27,11 +26,8 @@ namespace Entidades
         private string Numero 
         {
             set 
-            { 
-                if(ValidarOperando(value) != 0)
-                {
-                    this.numero = ValidarOperando(value);
-                }                 
+            {
+                this.numero = ValidarOperando(value);              
             } 
         }
         #endregion
@@ -84,12 +80,11 @@ namespace Entidades
                 {
                     resto = operando % 2;
                     operando /= 2;
-                    retorno = resto.ToString() + retorno;
+                    retorno = resto.ToString() + retorno;                    
                 } while (operando > 0);
+                return retorno;
             }
-            else
-                retorno = "Valor Inválido";
-            return retorno;
+            return "Valor Inválido";
         }
         /// <summary>
         /// Convierte un número decimal a binario
@@ -101,14 +96,11 @@ namespace Entidades
         {
             string retorno;
             double numAuxiliar;
-            //string retorno;
             if (double.TryParse(numero, out numAuxiliar))
             {
-                retorno = DecimalBinario(numAuxiliar);
+                return retorno = DecimalBinario(numAuxiliar);
             }
-            else
-                retorno = "Valor inválido";
-            return retorno;
+            return "Valor inválido";
         }
         /// <summary>
         /// Valida que una cadena esté compuesta SOLAMENTE por caracteres '0' o '1'.
@@ -141,14 +133,12 @@ namespace Entidades
         /// <returns></returns>
         private double ValidarOperando(string strNumero)
         {
-            if (Convert.ToDouble(strNumero) != 0)
+            double retorno;
+            if (Double.TryParse(strNumero, out retorno) && !string.IsNullOrEmpty(strNumero))
             {
-                return Convert.ToDouble(strNumero);
+                return Convert.ToDouble(retorno);
             }
-            else
-            {
-                return 0;
-            }
+            return 0;
         }
         #endregion
 

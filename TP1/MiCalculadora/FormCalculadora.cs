@@ -68,10 +68,13 @@ namespace MiCalculadora
         /// <returns></returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
-            char auxChar = char.Parse(operador);
-            Operando operador1 = new Operando(numero1);
-            Operando operador2 = new Operando(numero2);
-            return Calculadora.Operar(operador1, operador2, auxChar);
+            if(!string.IsNullOrEmpty(numero1) && !string.IsNullOrEmpty(numero2) && !string.IsNullOrEmpty(operador))
+            {
+                Operando operador1 = new Operando(numero1);
+                Operando operador2 = new Operando(numero2);
+                return Calculadora.Operar(operador1, operador2,char.Parse(operador));
+            }
+            return 0;            
         }
         /// <summary>
         /// Carga los elementos del cmbOperador
@@ -124,7 +127,5 @@ namespace MiCalculadora
                 e.Cancel = true;
             }
         }
-
-
     }
 }

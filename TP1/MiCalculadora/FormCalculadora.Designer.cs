@@ -157,7 +157,7 @@ namespace MiCalculadora
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora Estefania Gomez Peverini del curso 2C";
+            this.Text = "Calculadora Estefania Gomez Peverini del curso 2E";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormCalculadora_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

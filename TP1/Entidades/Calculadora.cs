@@ -2,7 +2,7 @@
 
 namespace Entidades
 {
-    public class Calculadora
+    public static class Calculadora
     {
         /// <summary>
         /// Valida operador y realiza cálculo solicitado
