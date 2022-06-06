@@ -25,22 +25,7 @@ namespace UI
 
         private void FormTransportista_Load(object sender, EventArgs e)
         {
-            Transportista tr2 = new Transportista("378821134", "Mordecai", "BBB123", 18,Granos.Grano.Maíz,87);
-            Transportista tr3 = new Transportista("342232", "Pedro", "CCC123", 18, Granos.Grano.Soja, 87);
-            Transportista tr4 = new Transportista("23232323", "Roberto", "DDD123", 15, Granos.Grano.Trigo, 50);
-            Transportista tr5 = new Transportista("8768678", "Primo", "FFF463", 16, Granos.Grano.Girasol, 873);
-            Transportista tr6 = new Transportista("5454645", "Luis", "EEE987", 21, Granos.Grano.Maíz, 873);
-            tr.Add(tr2);
-            tr.Add(tr3);
-            tr.Add(tr4);
-            tr.Add(tr5);
-            tr.Add(tr6);
-            serializador.Escribir(tr2, "transportistas.json");
-            serializador.Escribir(tr3, "transportistas.json");
-            serializador.Escribir(tr4, "transportistas.json");
-            serializador.Escribir(tr5, "transportistas.json");
-            serializador.Escribir(tr6, "transportistas.json");
-            dgTransportista.DataSource = tr;
+            HardCodeInfo();
 
         }
 
@@ -69,6 +54,26 @@ namespace UI
             {
                 MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
             }
+        }
+
+        private void HardCodeInfo()
+        {
+            Transportista tr2 = new Transportista("378821134", "Mordecai", "BBB123", 18, Granos.Grano.Maíz, 87);
+            Transportista tr3 = new Transportista("342232", "Pedro", "CCC123", 18, Granos.Grano.Soja, 87);
+            Transportista tr4 = new Transportista("23232323", "Roberto", "DDD123", 15, Granos.Grano.Trigo, 50);
+            Transportista tr5 = new Transportista("8768678", "Primo", "FFF463", 16, Granos.Grano.Girasol, 873);
+            Transportista tr6 = new Transportista("5454645", "Luis", "EEE987", 21, Granos.Grano.Maíz, 873);
+            tr.Add(tr2);
+            tr.Add(tr3);
+            tr.Add(tr4);
+            tr.Add(tr5);
+            tr.Add(tr6);
+            serializador.Escribir(tr2, "transportistas.json");
+            serializador.Escribir(tr3, "transportistas.json");
+            serializador.Escribir(tr4, "transportistas.json");
+            serializador.Escribir(tr5, "transportistas.json");
+            serializador.Escribir(tr6, "transportistas.json");
+            dgTransportista.DataSource = tr;
         }
     }
 }
