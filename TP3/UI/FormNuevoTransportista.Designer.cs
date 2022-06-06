@@ -39,9 +39,11 @@ namespace UI
             this.txtPatente = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCuit = new System.Windows.Forms.TextBox();
-            this.txtToneladas = new System.Windows.Forms.TextBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.numToneladas = new System.Windows.Forms.NumericUpDown();
+            this.numPrecio = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.numToneladas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPrecio)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -131,22 +133,6 @@ namespace UI
             this.txtCuit.Size = new System.Drawing.Size(168, 47);
             this.txtCuit.TabIndex = 9;
             // 
-            // txtToneladas
-            // 
-            this.txtToneladas.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtToneladas.Location = new System.Drawing.Point(252, 27);
-            this.txtToneladas.Name = "txtToneladas";
-            this.txtToneladas.Size = new System.Drawing.Size(168, 47);
-            this.txtToneladas.TabIndex = 10;
-            // 
-            // txtPrecio
-            // 
-            this.txtPrecio.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.txtPrecio.Location = new System.Drawing.Point(252, 129);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(168, 47);
-            this.txtPrecio.TabIndex = 11;
-            // 
             // btnAgregar
             // 
             this.btnAgregar.Location = new System.Drawing.Point(168, 316);
@@ -157,14 +143,28 @@ namespace UI
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
+            // numToneladas
+            // 
+            this.numToneladas.Location = new System.Drawing.Point(261, 27);
+            this.numToneladas.Name = "numToneladas";
+            this.numToneladas.Size = new System.Drawing.Size(120, 23);
+            this.numToneladas.TabIndex = 13;
+            // 
+            // numPrecio
+            // 
+            this.numPrecio.Location = new System.Drawing.Point(261, 129);
+            this.numPrecio.Name = "numPrecio";
+            this.numPrecio.Size = new System.Drawing.Size(120, 23);
+            this.numPrecio.TabIndex = 14;
+            // 
             // FormNuevoTransportista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 351);
+            this.Controls.Add(this.numPrecio);
+            this.Controls.Add(this.numToneladas);
             this.Controls.Add(this.btnAgregar);
-            this.Controls.Add(this.txtPrecio);
-            this.Controls.Add(this.txtToneladas);
             this.Controls.Add(this.txtCuit);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtPatente);
@@ -180,7 +180,9 @@ namespace UI
             this.Name = "FormNuevoTransportista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNuevoTransportista";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormNuevoTransportista_FormClosing);
+            this.Load += new System.EventHandler(this.FormNuevoTransportista_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.numToneladas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numPrecio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -198,8 +200,8 @@ namespace UI
         private System.Windows.Forms.TextBox txtPatente;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCuit;
-        private System.Windows.Forms.TextBox txtToneladas;
-        private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.NumericUpDown numToneladas;
+        private System.Windows.Forms.NumericUpDown numPrecio;
     }
 }

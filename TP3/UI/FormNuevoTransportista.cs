@@ -26,15 +26,9 @@ namespace UI
         {
             try
             {
-                if (txtToneladas.TextLength != 0 && txtPrecio.TextLength != 0 && cmbTipoCereal.SelectedIndex != -1)
+                if (txtCuit.TextLength != 0 && txtNombre.TextLength != 0 && txtPatente.TextLength != -1 && cmbTipoCereal.SelectedIndex != -1)
                 {
-                    Transportista tr = new Transportista(txtCuit.ToString(), txtNombre.ToString(), txtPatente.ToString(), Convert.ToInt64(txtToneladas), TipoGrano(), Convert.ToInt64(txtPrecio));
-                    serializador.Escribir(tr, "transportistas.json");
-                    this.Close();
-                }
-                else if(txtNombre.TextLength != 0 && txtPatente.TextLength != 0 && txtCuit.TextLength !=0)
-                {
-                    Transportista tr = new Transportista(txtCuit.ToString(), txtNombre.ToString(), txtPatente.ToString());
+                    Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano(), Convert.ToInt64(numPrecio.Value));
                     serializador.Escribir(tr, "transportistas.json");
                     this.Close();
                 }
@@ -55,26 +49,32 @@ namespace UI
             cmbTipoCereal.Items.Add("Soja");
             cmbTipoCereal.Items.Add("Girasol");
         }
+        
         private Granos.Grano TipoGrano()
         {
             Granos.Grano aux;
             if (cmbTipoCereal.SelectedIndex == 0)
+            {
                 aux = Granos.Grano.Trigo;
+            }
             else if (cmbTipoCereal.SelectedIndex == 1)
-                aux =Granos.Grano.Maíz;
-            else if (cmbTipoCereal.SelectedIndex == 1)
+            {
+                aux = Granos.Grano.Maíz;
+            }
+            else if (cmbTipoCereal.SelectedIndex == 2)
+            {
                 aux = Granos.Grano.Soja;
-            else if(cmbTipoCereal.SelectedIndex == 1)
+            }
+            else
+            {
                 aux = Granos.Grano.Girasol;
-            else 
-                aux = Granos.Grano.Vacio;
-
+            }
             return aux;
         }
-
-        private void FormNuevoTransportista_FormClosing(object sender, FormClosingEventArgs e)
+        
+        private void FormNuevoTransportista_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Camión agregado!");
+
         }
     }
 }

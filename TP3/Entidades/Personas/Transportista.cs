@@ -28,19 +28,15 @@ namespace Entidades
             set { this.precioTonelada = value; } 
         }
 
-        public Transportista(string cuit,string nombre,string patente)
+        public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, long precioTonelada)
         {
             this.cuit = cuit;
             this.nombre = nombre;
             this.patente = patente;
-            this.fecha = DateTime.Now;
-        }
-        public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, long precioTonelada)
-            :this(cuit, nombre, patente)
-        {
             this.toneladas = toneladas;
             this.tipoGrano = tipoGrano;
             this.PrecioTonelada = precioTonelada;
+            this.fecha = DateTime.Now;
         }
 
         public long FacturarCamion(Granos.Grano tipoGrano, long precioTonelada)
