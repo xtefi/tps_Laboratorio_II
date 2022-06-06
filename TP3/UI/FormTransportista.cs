@@ -57,9 +57,18 @@ namespace UI
             this.Visible = true;
         }
 
-        private void dgTransportista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void btnDescargar_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                Transportista selected = dgTransportista.SelectedRows[0].DataBoundItem as Transportista;
+                selected.FechaDescarga = DateTime.Now;
+                selected.Toneladas = 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
+            }
         }
     }
 }

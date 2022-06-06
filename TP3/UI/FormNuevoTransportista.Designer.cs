@@ -180,7 +180,6 @@ namespace UI
             this.Name = "FormNuevoTransportista";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNuevoTransportista";
-            this.Load += new System.EventHandler(this.FormNuevoTransportista_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numToneladas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numPrecio)).EndInit();
             this.ResumeLayout(false);

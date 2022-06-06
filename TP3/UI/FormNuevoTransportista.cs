@@ -72,9 +72,5 @@ namespace UI
             return aux;
         }
         
-        private void FormNuevoTransportista_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

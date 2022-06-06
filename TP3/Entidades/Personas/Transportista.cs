@@ -14,19 +14,21 @@ namespace Entidades
         private string nombre;
         private long toneladas;
         private Granos.Grano tipoGrano;
-        private DateTime fecha;
+        private DateTime fechaIngreso;
         private long precioTonelada;
+        private DateTime fechaDescarga;
 
         public string Nombre { get { return this.nombre; } }
         public string Patente { get { return this.patente; } }
         public string Cuit { get { return this.cuit; } }
-        public DateTime Fecha { get { return this.fecha; } }
-        public long Toneladas { get { return this.toneladas; } }
+        public DateTime FechaIngreso { get { return this.fechaIngreso; } }
+        public long Toneladas { get { return this.toneladas; } set { this.toneladas = value; } }
         public Granos.Grano TipoGrano { get { return this.tipoGrano; } }
         public long PrecioTonelada { 
             get { return this.precioTonelada; } 
             set { this.precioTonelada = value; } 
         }
+        public DateTime FechaDescarga { get { return this.fechaDescarga; } set { this.fechaDescarga = value; } }
 
         public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, long precioTonelada)
         {
@@ -36,7 +38,8 @@ namespace Entidades
             this.toneladas = toneladas;
             this.tipoGrano = tipoGrano;
             this.PrecioTonelada = precioTonelada;
-            this.fecha = DateTime.Now;
+            this.fechaIngreso = DateTime.Now;
+            this.fechaDescarga = DateTime.MinValue;
         }
 
         public long FacturarCamion(Granos.Grano tipoGrano, long precioTonelada)
@@ -66,7 +69,7 @@ namespace Entidades
             }
             return valor;
         }
-
+        /*
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
@@ -75,6 +78,6 @@ namespace Entidades
             sb.AppendLine($"Toneladas: {this.Toneladas}");
             sb.AppendLine($"Tipo grano: {this.TipoGrano}");
             return sb.ToString();
-        }
+        }*/
     }
 }

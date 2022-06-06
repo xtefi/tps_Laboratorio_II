@@ -31,6 +31,7 @@ namespace UI
         {
             this.btnNuevoTransporte = new System.Windows.Forms.Button();
             this.dgTransportista = new System.Windows.Forms.DataGridView();
+            this.btnDescargar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgTransportista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,13 +53,23 @@ namespace UI
             this.dgTransportista.RowTemplate.Height = 25;
             this.dgTransportista.Size = new System.Drawing.Size(742, 274);
             this.dgTransportista.TabIndex = 2;
-            this.dgTransportista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgTransportista_CellContentClick);
+            // 
+            // btnDescargar
+            // 
+            this.btnDescargar.Location = new System.Drawing.Point(133, 292);
+            this.btnDescargar.Name = "btnDescargar";
+            this.btnDescargar.Size = new System.Drawing.Size(115, 45);
+            this.btnDescargar.TabIndex = 3;
+            this.btnDescargar.Text = "Descargar camión";
+            this.btnDescargar.UseVisualStyleBackColor = true;
+            this.btnDescargar.Click += new System.EventHandler(this.btnDescargar_Click);
             // 
             // FormTransportista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(771, 343);
+            this.Controls.Add(this.btnDescargar);
             this.Controls.Add(this.dgTransportista);
             this.Controls.Add(this.btnNuevoTransporte);
             this.Name = "FormTransportista";
@@ -72,5 +83,6 @@ namespace UI
         #endregion
         private System.Windows.Forms.Button btnNuevoTransporte;
         private System.Windows.Forms.DataGridView dgTransportista;
+        private System.Windows.Forms.Button btnDescargar;
     }
 }
