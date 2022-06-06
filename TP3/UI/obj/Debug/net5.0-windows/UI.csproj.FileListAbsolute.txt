@@ -105,8 +105,6 @@ C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.For
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
-C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FrmNuevoProductor.resources
-C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FromPersonas.resources
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
 C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig

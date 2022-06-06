@@ -29,12 +29,177 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblPrecio = new System.Windows.Forms.Label();
+            this.lblPatente = new System.Windows.Forms.Label();
+            this.lblCUIT = new System.Windows.Forms.Label();
+            this.lblCereal = new System.Windows.Forms.Label();
+            this.lblToneladas = new System.Windows.Forms.Label();
+            this.cmbTipoCereal = new System.Windows.Forms.ComboBox();
+            this.txtPatente = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtCuit = new System.Windows.Forms.TextBox();
+            this.txtToneladas = new System.Windows.Forms.TextBox();
+            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.btnAgregar = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(12, 111);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(51, 15);
+            this.lblNombre.TabIndex = 0;
+            this.lblNombre.Text = "Nombre";
+            // 
+            // lblPrecio
+            // 
+            this.lblPrecio.AutoSize = true;
+            this.lblPrecio.Location = new System.Drawing.Point(252, 111);
+            this.lblPrecio.Name = "lblPrecio";
+            this.lblPrecio.Size = new System.Drawing.Size(93, 15);
+            this.lblPrecio.TabIndex = 1;
+            this.lblPrecio.Text = "Precio del grano";
+            // 
+            // lblPatente
+            // 
+            this.lblPatente.AutoSize = true;
+            this.lblPatente.Location = new System.Drawing.Point(12, 9);
+            this.lblPatente.Name = "lblPatente";
+            this.lblPatente.Size = new System.Drawing.Size(47, 15);
+            this.lblPatente.TabIndex = 2;
+            this.lblPatente.Text = "Patente";
+            // 
+            // lblCUIT
+            // 
+            this.lblCUIT.AutoSize = true;
+            this.lblCUIT.Location = new System.Drawing.Point(12, 208);
+            this.lblCUIT.Name = "lblCUIT";
+            this.lblCUIT.Size = new System.Drawing.Size(32, 15);
+            this.lblCUIT.TabIndex = 3;
+            this.lblCUIT.Text = "CUIT";
+            // 
+            // lblCereal
+            // 
+            this.lblCereal.AutoSize = true;
+            this.lblCereal.Location = new System.Drawing.Point(252, 208);
+            this.lblCereal.Name = "lblCereal";
+            this.lblCereal.Size = new System.Drawing.Size(80, 15);
+            this.lblCereal.TabIndex = 4;
+            this.lblCereal.Text = "Tipo de cereal";
+            // 
+            // lblToneladas
+            // 
+            this.lblToneladas.AutoSize = true;
+            this.lblToneladas.Location = new System.Drawing.Point(252, 9);
+            this.lblToneladas.Name = "lblToneladas";
+            this.lblToneladas.Size = new System.Drawing.Size(59, 15);
+            this.lblToneladas.TabIndex = 5;
+            this.lblToneladas.Text = "Toneladas";
+            // 
+            // cmbTipoCereal
+            // 
+            this.cmbTipoCereal.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.cmbTipoCereal.FormattingEnabled = true;
+            this.cmbTipoCereal.Location = new System.Drawing.Point(252, 226);
+            this.cmbTipoCereal.Name = "cmbTipoCereal";
+            this.cmbTipoCereal.Size = new System.Drawing.Size(168, 47);
+            this.cmbTipoCereal.TabIndex = 6;
+            // 
+            // txtPatente
+            // 
+            this.txtPatente.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPatente.Location = new System.Drawing.Point(12, 27);
+            this.txtPatente.Name = "txtPatente";
+            this.txtPatente.Size = new System.Drawing.Size(168, 47);
+            this.txtPatente.TabIndex = 7;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtNombre.Location = new System.Drawing.Point(12, 129);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(168, 47);
+            this.txtNombre.TabIndex = 8;
+            // 
+            // txtCuit
+            // 
+            this.txtCuit.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtCuit.Location = new System.Drawing.Point(12, 226);
+            this.txtCuit.Name = "txtCuit";
+            this.txtCuit.Size = new System.Drawing.Size(168, 47);
+            this.txtCuit.TabIndex = 9;
+            // 
+            // txtToneladas
+            // 
+            this.txtToneladas.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtToneladas.Location = new System.Drawing.Point(252, 27);
+            this.txtToneladas.Name = "txtToneladas";
+            this.txtToneladas.Size = new System.Drawing.Size(168, 47);
+            this.txtToneladas.TabIndex = 10;
+            // 
+            // txtPrecio
+            // 
+            this.txtPrecio.Font = new System.Drawing.Font("Corbel", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.txtPrecio.Location = new System.Drawing.Point(252, 129);
+            this.txtPrecio.Name = "txtPrecio";
+            this.txtPrecio.Size = new System.Drawing.Size(168, 47);
+            this.txtPrecio.TabIndex = 11;
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(168, 316);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
+            this.btnAgregar.TabIndex = 12;
+            this.btnAgregar.Text = "Agregar transporte";
+            this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
+            // 
+            // FormNuevoTransportista
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(445, 351);
+            this.Controls.Add(this.btnAgregar);
+            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtToneladas);
+            this.Controls.Add(this.txtCuit);
+            this.Controls.Add(this.txtNombre);
+            this.Controls.Add(this.txtPatente);
+            this.Controls.Add(this.cmbTipoCereal);
+            this.Controls.Add(this.lblToneladas);
+            this.Controls.Add(this.lblCereal);
+            this.Controls.Add(this.lblCUIT);
+            this.Controls.Add(this.lblPatente);
+            this.Controls.Add(this.lblPrecio);
+            this.Controls.Add(this.lblNombre);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "FormNuevoTransportista";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormNuevoTransportista";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FormNuevoTransportista_FormClosing);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblPrecio;
+        private System.Windows.Forms.Label lblPatente;
+        private System.Windows.Forms.Label lblCUIT;
+        private System.Windows.Forms.Label lblCereal;
+        private System.Windows.Forms.Label lblToneladas;
+        private System.Windows.Forms.ComboBox cmbTipoCereal;
+        private System.Windows.Forms.TextBox txtPatente;
+        private System.Windows.Forms.TextBox txtNombre;
+        private System.Windows.Forms.TextBox txtCuit;
+        private System.Windows.Forms.TextBox txtToneladas;
+        private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.Button btnAgregar;
     }
 }

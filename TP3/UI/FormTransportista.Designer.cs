@@ -29,36 +29,47 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgTransportistas = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgTransportistas)).BeginInit();
+            this.btnNuevoTransporte = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // dgTransportistas
+            // btnNuevoTransporte
             // 
-            this.dgTransportistas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgTransportistas.Location = new System.Drawing.Point(12, 12);
-            this.dgTransportistas.Name = "dgTransportistas";
-            this.dgTransportistas.RowTemplate.Height = 25;
-            this.dgTransportistas.Size = new System.Drawing.Size(747, 246);
-            this.dgTransportistas.TabIndex = 0;
-            this.dgTransportistas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgTransportistas_CellContentClick);
+            this.btnNuevoTransporte.Location = new System.Drawing.Point(12, 280);
+            this.btnNuevoTransporte.Name = "btnNuevoTransporte";
+            this.btnNuevoTransporte.Size = new System.Drawing.Size(115, 45);
+            this.btnNuevoTransporte.TabIndex = 1;
+            this.btnNuevoTransporte.Text = "Ingresar transporte";
+            this.btnNuevoTransporte.UseVisualStyleBackColor = true;
+            this.btnNuevoTransporte.Click += new System.EventHandler(this.btnNuevoTransporte_Click);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 0);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 25;
+            this.dataGridView1.Size = new System.Drawing.Size(742, 274);
+            this.dataGridView1.TabIndex = 2;
             // 
             // FormTransportista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 351);
-            this.Controls.Add(this.dgTransportistas);
+            this.ClientSize = new System.Drawing.Size(771, 339);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnNuevoTransporte);
             this.Name = "FormTransportista";
             this.Text = "FormTransportista";
             this.Load += new System.EventHandler(this.FormTransportista_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgTransportistas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dgTransportistas;
+        private System.Windows.Forms.Button btnNuevoTransporte;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

@@ -13,11 +13,5 @@
     <Compile Update="FormTransportista.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FrmNuevoProductor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FromPersonas.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

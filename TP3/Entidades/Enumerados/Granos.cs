@@ -10,11 +10,11 @@ namespace Entidades.Enumerados
     {
         public enum Grano
         {
-            Trigo,
-            Maíz,
-            Soja,
-            Girasol,
-            Vacio
+            Trigo=1,
+            Maíz=2,
+            Soja=3,
+            Girasol=4,
+            Vacio=0
         }
     }
 }
