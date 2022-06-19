@@ -32,14 +32,17 @@ namespace UI
             this.btnNuevoTransporte = new System.Windows.Forms.Button();
             this.dgTransportista = new System.Windows.Forms.DataGridView();
             this.btnDescargar = new System.Windows.Forms.Button();
+            this.btnArchivosXml = new System.Windows.Forms.Button();
+            this.btnExportarXml = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgTransportista)).BeginInit();
             this.SuspendLayout();
             // 
             // btnNuevoTransporte
             // 
-            this.btnNuevoTransporte.Location = new System.Drawing.Point(12, 292);
+            this.btnNuevoTransporte.Location = new System.Drawing.Point(14, 389);
+            this.btnNuevoTransporte.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnNuevoTransporte.Name = "btnNuevoTransporte";
-            this.btnNuevoTransporte.Size = new System.Drawing.Size(115, 45);
+            this.btnNuevoTransporte.Size = new System.Drawing.Size(131, 60);
             this.btnNuevoTransporte.TabIndex = 1;
             this.btnNuevoTransporte.Text = "Ingresar transporte";
             this.btnNuevoTransporte.UseVisualStyleBackColor = true;
@@ -48,32 +51,61 @@ namespace UI
             // dgTransportista
             // 
             this.dgTransportista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgTransportista.Location = new System.Drawing.Point(12, 12);
+            this.dgTransportista.Location = new System.Drawing.Point(14, 16);
+            this.dgTransportista.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgTransportista.Name = "dgTransportista";
+            this.dgTransportista.RowHeadersWidth = 51;
             this.dgTransportista.RowTemplate.Height = 25;
-            this.dgTransportista.Size = new System.Drawing.Size(742, 274);
+            this.dgTransportista.Size = new System.Drawing.Size(934, 365);
             this.dgTransportista.TabIndex = 2;
             // 
             // btnDescargar
             // 
-            this.btnDescargar.Location = new System.Drawing.Point(133, 292);
+            this.btnDescargar.Location = new System.Drawing.Point(152, 389);
+            this.btnDescargar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnDescargar.Name = "btnDescargar";
-            this.btnDescargar.Size = new System.Drawing.Size(115, 45);
+            this.btnDescargar.Size = new System.Drawing.Size(131, 60);
             this.btnDescargar.TabIndex = 3;
             this.btnDescargar.Text = "Descargar camión";
             this.btnDescargar.UseVisualStyleBackColor = true;
             this.btnDescargar.Click += new System.EventHandler(this.btnDescargar_Click);
             // 
+            // btnArchivosXml
+            // 
+            this.btnArchivosXml.Location = new System.Drawing.Point(289, 389);
+            this.btnArchivosXml.Name = "btnArchivosXml";
+            this.btnArchivosXml.Size = new System.Drawing.Size(131, 60);
+            this.btnArchivosXml.TabIndex = 4;
+            this.btnArchivosXml.Text = "Cargar desde archivo";
+            this.btnArchivosXml.UseVisualStyleBackColor = true;
+            this.btnArchivosXml.Click += new System.EventHandler(this.btnArchivosXml_Click);
+            // 
+            // btnExportarXml
+            // 
+            this.btnExportarXml.Location = new System.Drawing.Point(426, 388);
+            this.btnExportarXml.Name = "btnExportarXml";
+            this.btnExportarXml.Size = new System.Drawing.Size(131, 61);
+            this.btnExportarXml.TabIndex = 5;
+            this.btnExportarXml.Text = "Exportar a formato xml";
+            this.btnExportarXml.UseVisualStyleBackColor = true;
+            this.btnExportarXml.Click += new System.EventHandler(this.btnExportarXml_Click);
+            // 
             // FormTransportista
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 343);
+            this.ClientSize = new System.Drawing.Size(960, 457);
+            this.Controls.Add(this.btnExportarXml);
+            this.Controls.Add(this.btnArchivosXml);
             this.Controls.Add(this.btnDescargar);
             this.Controls.Add(this.dgTransportista);
             this.Controls.Add(this.btnNuevoTransporte);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.MaximizeBox = false;
             this.Name = "FormTransportista";
-            this.Text = "FormTransportista";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Lista de transportistas";
             this.Load += new System.EventHandler(this.FormTransportista_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgTransportista)).EndInit();
             this.ResumeLayout(false);
@@ -84,5 +116,7 @@ namespace UI
         private System.Windows.Forms.Button btnNuevoTransporte;
         private System.Windows.Forms.DataGridView dgTransportista;
         private System.Windows.Forms.Button btnDescargar;
+        private System.Windows.Forms.Button btnArchivosXml;
+        private System.Windows.Forms.Button btnExportarXml;
     }
 }

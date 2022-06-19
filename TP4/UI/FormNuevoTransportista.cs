@@ -14,23 +14,27 @@ namespace UI
 {
     public partial class FormNuevoTransportista : Form
     {
-        Serializadora<Transportista> serializadora;
+        public List<Transportista> transportistas;
         public FormNuevoTransportista()
         {
             InitializeComponent();
             CargarCMB();
-            serializadora = new Serializadora<Transportista>();
+            CargarLista();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             try
             {
-                if (txtCuit.TextLength != 0 && txtNombre.TextLength != 0 && txtPatente.TextLength != -1 && cmbTipoCereal.SelectedIndex != -1)
+                if (txtCuit.TextLength != 0 && 
+                    txtNombre.TextLength != 0 && 
+                    txtPatente.TextLength != -1 && 
+                    cmbTipoCereal.SelectedIndex != -1)
                 {
-                    Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano(), Convert.ToInt64(numPrecio.Value));
-                    
-                    serializadora.GuardarJSON(tr, "transportistas.json");
+                    Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano());
+                    transportistas.Add(tr);
+                    Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
+                    MessageBox.Show($"Se ha agregado el transporte con éxito.");
                     this.Close();
                 }
                 else
@@ -49,6 +53,19 @@ namespace UI
             cmbTipoCereal.Items.Add("Maíz");
             cmbTipoCereal.Items.Add("Soja");
             cmbTipoCereal.Items.Add("Girasol");
+        }
+        private void CargarLista()
+        {
+            try
+            {                
+                transportistas = Serializadora<List<Transportista>>.LeerXml("transportistas.xml");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
+                
+            }
+           
         }
         
         private Granos.Grano TipoGrano()

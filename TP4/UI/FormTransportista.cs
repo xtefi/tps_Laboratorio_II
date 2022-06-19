@@ -14,22 +14,17 @@ namespace UI
 {
     public partial class FormTransportista : Form
     {
-        public List<Transportista> tr;
-        private Serializadora<List<Transportista>> sr = new Serializadora<List<Transportista>>();  
+        public List<Transportista> transportistas;
+        
         public FormTransportista()
         {
             InitializeComponent();
-            tr = new List<Transportista>(); 
+            transportistas = new List<Transportista>();
         }
 
         private void FormTransportista_Load(object sender, EventArgs e)
         {
-            //HardCodeInfo();
-            CargarXml();
-
-            //CargarJSON();
-
-
+           
         }
 
         private void btnNuevoTransporte_Click(object sender, EventArgs e)
@@ -53,34 +48,20 @@ namespace UI
                 MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
             }
         }
-
-        private void HardCodeInfo()
+        private void btnArchivosXml_Click(object sender, EventArgs e)
         {
-
-            Transportista tr2 = new Transportista("378821134", "Mordecai", "BBB123", 18, Granos.Grano.Maíz, 87);
-            Transportista tr3 = new Transportista("342232", "Pedro", "CCC123", 18, Granos.Grano.Soja, 87);
-            Transportista tr4 = new Transportista("23232323", "Roberto", "DDD123", 15, Granos.Grano.Trigo, 50);
-            Transportista tr5 = new Transportista("8768678", "Primo", "FFF463", 16, Granos.Grano.Girasol, 873);
-            Transportista tr6 = new Transportista("5454645", "Luis", "EEE987", 21, Granos.Grano.Maíz, 873);
-            tr.Add(tr2);
-            tr.Add(tr3);
-            tr.Add(tr4);
-            tr.Add(tr5);
-            tr.Add(tr6);
-            Serializadora<List<Transportista>>.GuardarXml(tr, "transportistas.xml");
-            
-            //sr.GuardarJSON(tr, "transportistas.json");
-            dgTransportista.DataSource = tr;
+            try{
+                List<Transportista> lista = Serializadora<List<Transportista>>.LeerXml("transportistas.xml");
+                dgTransportista.DataSource = lista;
+            }
+            catch(Exception ex){
+                MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
+            }
         }
-        private void CargarXml()
+
+        private void btnExportarXml_Click(object sender, EventArgs e)
         {
-            List<Transportista> lista = Serializadora<List<Transportista>>.LeerXml("transportistas.xml");
-            dgTransportista.DataSource = lista;
-        }
-        private void CargarJSON()
-        {
-            tr = sr.LeerJSON("transportistas.json");
-            dgTransportista.DataSource = tr;
+            Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
         }
     }
 }
