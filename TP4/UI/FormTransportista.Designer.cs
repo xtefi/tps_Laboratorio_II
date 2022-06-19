@@ -29,13 +29,16 @@ namespace UI
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnNuevoTransporte = new System.Windows.Forms.Button();
             this.dgTransportista = new System.Windows.Forms.DataGridView();
             this.btnDescargar = new System.Windows.Forms.Button();
             this.btnArchivosXml = new System.Windows.Forms.Button();
             this.btnExportarXml = new System.Windows.Forms.Button();
             this.btnCargaDB = new System.Windows.Forms.Button();
-            this.btnExportaDB = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.lblHora = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgTransportista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,12 +56,12 @@ namespace UI
             // dgTransportista
             // 
             this.dgTransportista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgTransportista.Location = new System.Drawing.Point(14, 16);
+            this.dgTransportista.Location = new System.Drawing.Point(12, 13);
             this.dgTransportista.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgTransportista.Name = "dgTransportista";
             this.dgTransportista.RowHeadersWidth = 51;
             this.dgTransportista.RowTemplate.Height = 25;
-            this.dgTransportista.Size = new System.Drawing.Size(934, 365);
+            this.dgTransportista.Size = new System.Drawing.Size(936, 368);
             this.dgTransportista.TabIndex = 2;
             // 
             // btnDescargar
@@ -101,21 +104,21 @@ namespace UI
             this.btnCargaDB.Text = "Cargar desde base de datos";
             this.btnCargaDB.UseVisualStyleBackColor = true;
             // 
-            // btnExportaDB
+            // lblHora
             // 
-            this.btnExportaDB.Location = new System.Drawing.Point(700, 388);
-            this.btnExportaDB.Name = "btnExportaDB";
-            this.btnExportaDB.Size = new System.Drawing.Size(131, 61);
-            this.btnExportaDB.TabIndex = 7;
-            this.btnExportaDB.Text = "Exportar a base de datos";
-            this.btnExportaDB.UseVisualStyleBackColor = true;
+            this.lblHora.Font = new System.Drawing.Font("Corbel", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblHora.Location = new System.Drawing.Point(736, 389);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(212, 60);
+            this.lblHora.TabIndex = 7;
+            this.lblHora.Text = " ";
             // 
             // FormTransportista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 457);
-            this.Controls.Add(this.btnExportaDB);
+            this.Controls.Add(this.lblHora);
             this.Controls.Add(this.btnCargaDB);
             this.Controls.Add(this.btnExportarXml);
             this.Controls.Add(this.btnArchivosXml);
@@ -141,6 +144,8 @@ namespace UI
         private System.Windows.Forms.Button btnArchivosXml;
         private System.Windows.Forms.Button btnExportarXml;
         private System.Windows.Forms.Button btnCargaDB;
-        private System.Windows.Forms.Button btnExportaDB;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label lblHora;
     }
 }

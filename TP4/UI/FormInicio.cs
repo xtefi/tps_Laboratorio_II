@@ -23,19 +23,33 @@ namespace UI
         }
 
         private void btnAcopio_Click_1(object sender, EventArgs e)
-        {            
-            FormAcopio frmAcopio = new FormAcopio();
-            this.Visible = false;
-            frmAcopio.ShowDialog();
-            this.Visible = true;
+        {
+            try
+            {
+                FormAcopio frmAcopio = new FormAcopio();
+                this.Visible = false;
+                frmAcopio.ShowDialog();
+                this.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);    
+            }
         }
 
         private void btnMolino_Click(object sender, EventArgs e)
         {
-            FormTransportista frmTransp = new FormTransportista();
-            this.Visible = false;
-            frmTransp.ShowDialog();
-            this.Visible = true;
+            try
+            {
+                FormTransportista frmTransp = new FormTransportista();
+                this.Visible = false;
+                frmTransp.ShowDialog();
+                this.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

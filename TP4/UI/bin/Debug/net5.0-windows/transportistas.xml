@@ -4,10 +4,20 @@
     <Id>0</Id>
     <Nombre>SPOCK</Nombre>
     <Patente>ABC123</Patente>
-    <Cuit>789456789</Cuit>
-    <FechaIngreso>2022-06-19T17:16:12.6396996-03:00</FechaIngreso>
+    <Cuit>1231231321</Cuit>
+    <FechaIngreso>2022-06-19T19:47:33.3923069-03:00</FechaIngreso>
+    <Toneladas>11</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>McCoy</Nombre>
+    <Patente>XTZ125</Patente>
+    <Cuit>213213213</Cuit>
+    <FechaIngreso>2022-06-19T19:59:10.5049626-03:00</FechaIngreso>
     <Toneladas>10</Toneladas>
-    <TipoGrano>Maíz</TipoGrano>
+    <TipoGrano>Trigo</TipoGrano>
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
 </ArrayOfTransportista>

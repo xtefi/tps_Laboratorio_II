@@ -16,7 +16,10 @@ namespace Entidades
             GestorDB.cadenaConexion = "Server=.;Database=ServiciosAgropecuarios;Trusted_Connection=True;";
 
         }
-
+        /// <summary>
+        /// Se lee una lista de transportistas desde una base de datos
+        /// </summary>
+        /// <returns></returns>
         public static List<Transportista> LeerDatos()
         {
             List<Transportista> datos = new List<Transportista>();
@@ -45,11 +48,14 @@ namespace Entidades
             }
             catch (Exception ex)
             {
-
+                throw;
             }
             return datos;
         }
-
+        /// <summary>
+        /// Se da de alta un transportista en una base de datos
+        /// </summary>
+        /// <param name="transportista"></param>
         public static void Alta(Transportista transportista)
         {
             string query = "insert into Transportistas (nombre, cuit, patente, toneladas, tipoGrano, fechaIngreso, fechaDescarga) values (@nombre, @cuit, @patente, @toneladas, @tipoGrano, @fechaIngreso, @fechaDescarga)";
@@ -79,7 +85,11 @@ namespace Entidades
                 }
             }
         }
-
+        /// <summary>
+        /// Se actualiza la cantidad de toneladas y la fecha de descarga
+        /// </summary>
+        /// <param name="tr"> transportista a descargar</param>
+        /// <param name="id"> id del transportista</param>
         public static void ActualizarDatosDescarga(Transportista tr, int id)
         {
             string query = "update Transportistas set toneladas=@toneladas, fechaDescarga=@fechaDescarga where id = @id";
@@ -98,10 +108,8 @@ namespace Entidades
             }
             catch(Exception ex)
             {
-
+                throw;
             }
-
-
         }
     }
     
