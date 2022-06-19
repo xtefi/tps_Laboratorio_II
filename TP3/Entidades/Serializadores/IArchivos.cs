@@ -12,7 +12,7 @@ namespace Entidades
 
         T Leer(string path);
 
-        void Escribir(T dato, string path);
+        void Escribir(T dato, string path, bool pisarDatos);
 
     }
 }
