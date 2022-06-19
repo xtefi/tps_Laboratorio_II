@@ -63,5 +63,18 @@ namespace UI
         {
             Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
         }
+
+        private void CargarDesdeDB()
+        {
+            try
+            {
+                List<Transportista> lista = GestorDB.LeerDatos();
+                dgTransportista.DataSource = lista;
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

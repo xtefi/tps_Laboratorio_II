@@ -34,6 +34,7 @@ namespace UI
                     Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano());
                     transportistas.Add(tr);
                     Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
+                    GestorDB.Alta(tr);
                     MessageBox.Show($"Se ha agregado el transporte con éxito.");
                     this.Close();
                 }

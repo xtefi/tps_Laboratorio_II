@@ -34,6 +34,8 @@ namespace UI
             this.btnDescargar = new System.Windows.Forms.Button();
             this.btnArchivosXml = new System.Windows.Forms.Button();
             this.btnExportarXml = new System.Windows.Forms.Button();
+            this.btnCargaDB = new System.Windows.Forms.Button();
+            this.btnExportaDB = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgTransportista)).BeginInit();
             this.SuspendLayout();
             // 
@@ -90,11 +92,31 @@ namespace UI
             this.btnExportarXml.UseVisualStyleBackColor = true;
             this.btnExportarXml.Click += new System.EventHandler(this.btnExportarXml_Click);
             // 
+            // btnCargaDB
+            // 
+            this.btnCargaDB.Location = new System.Drawing.Point(563, 388);
+            this.btnCargaDB.Name = "btnCargaDB";
+            this.btnCargaDB.Size = new System.Drawing.Size(131, 61);
+            this.btnCargaDB.TabIndex = 6;
+            this.btnCargaDB.Text = "Cargar desde base de datos";
+            this.btnCargaDB.UseVisualStyleBackColor = true;
+            // 
+            // btnExportaDB
+            // 
+            this.btnExportaDB.Location = new System.Drawing.Point(700, 388);
+            this.btnExportaDB.Name = "btnExportaDB";
+            this.btnExportaDB.Size = new System.Drawing.Size(131, 61);
+            this.btnExportaDB.TabIndex = 7;
+            this.btnExportaDB.Text = "Exportar a base de datos";
+            this.btnExportaDB.UseVisualStyleBackColor = true;
+            // 
             // FormTransportista
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(960, 457);
+            this.Controls.Add(this.btnExportaDB);
+            this.Controls.Add(this.btnCargaDB);
             this.Controls.Add(this.btnExportarXml);
             this.Controls.Add(this.btnArchivosXml);
             this.Controls.Add(this.btnDescargar);
@@ -118,5 +140,7 @@ namespace UI
         private System.Windows.Forms.Button btnDescargar;
         private System.Windows.Forms.Button btnArchivosXml;
         private System.Windows.Forms.Button btnExportarXml;
+        private System.Windows.Forms.Button btnCargaDB;
+        private System.Windows.Forms.Button btnExportaDB;
     }
 }

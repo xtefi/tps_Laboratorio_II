@@ -17,7 +17,6 @@ namespace UI
         Acopio silo1;
         Acopio silo2;
         Acopio silo3;
-        Serializador<Acopio> serializador;
 
         public FormAcopio()
         {
@@ -25,16 +24,15 @@ namespace UI
             silo1 = new Acopio();
             silo2 = new Acopio();
             silo3 = new Acopio();
-            serializador = new Serializador<Acopio>(IArchivos<Acopio>.ETipoArchivo.JSON);
         }
         private void FormAcopio_Load(object sender, EventArgs e)
         {
             LoadItemsInCBX();
             try
-            {               
-                silo1 = serializador.Leer("silo1.json");
-                silo2 = serializador.Leer("silo2.json");
-                silo3 = serializador.Leer("silo3.json");
+            {
+                silo1 = Serializadora<Acopio>.LeerJSON("silo1.json");
+                silo2 = Serializadora<Acopio>.LeerJSON("silo2.json");
+                silo3 = Serializadora<Acopio>.LeerJSON("silo3.json");
             }
             catch(Exception ex)
             {
@@ -160,9 +158,9 @@ namespace UI
         {
             try
             {
-                serializador.Escribir(silo1, "silo1.json", false);
-                serializador.Escribir(silo2, "silo2.json", false);
-                serializador.Escribir(silo3, "silo3.json", false);
+                Serializadora<Acopio>.GuardarJSON(silo1, "silo1.json"); 
+                Serializadora<Acopio>.GuardarJSON(silo1, "silo2.json");
+                Serializadora<Acopio>.GuardarJSON(silo1, "silo3.json");
             }
             catch (Exception ex)
             {

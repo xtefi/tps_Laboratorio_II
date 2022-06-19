@@ -10,7 +10,7 @@ using System.Text.Json;
 
 namespace Entidades
 {
-    public class Serializadora <T> where T : class, new()
+    public class Serializadora <T> where T : class
     {
         public static void GuardarXml(T objeto, string path)
         {
@@ -35,23 +35,26 @@ namespace Entidades
             }
         }
 
-        public void GuardarJSON(T objeto, string path)
+        public static void GuardarJSON(T objeto, string path)
         {
-          
-                JsonSerializerOptions opcion = new JsonSerializerOptions();
-                opcion.WriteIndented = true;
+            try
+            {
+                if (Path.GetExtension(path) == ".json")
+                {
+                    Archivador.Escribir(JsonSerializer.Serialize(objeto, typeof(T)), path);
+                }
+                else
+                {
+                    throw new ExtensionInvalidaException("Extensión inválida para JSON");
+                }
+            }
+            catch
+            {
 
-                string json = JsonSerializer.Serialize(objeto, opcion);
-                Archivador.Escribir(path, json, true);/*
-                Archivador archivador = new Archivador();
-                archivador.Escribir1(JsonSerializer.Serialize(objeto, typeof(T)), path, true);
-           */
-
-
-            
+            }
         }
 
-        public T LeerJSON(string path)
+        public static T LeerJSON(string path)
         {
             string json = Archivador.Leer(path);
             return JsonSerializer.Deserialize<T>(json);
