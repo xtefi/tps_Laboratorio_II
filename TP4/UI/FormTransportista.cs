@@ -8,14 +8,15 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Entidades;
+using Entidades.Datos;
 using Entidades.Enumerados;
+using Entidades.Personas;
 
 namespace UI
 {
     public partial class FormTransportista : Form
     {
-        public List<Transportista> transportistas;
+        private List<Transportista> transportistas;
         delegate void MiDelegado(int i);
         public FormTransportista()
         {
@@ -50,7 +51,7 @@ namespace UI
                 {
                     selected.FechaDescarga = DateTime.Now;
                     selected.Toneladas = 0;
-                    //GestorDB.ActualizarDatosDescarga(selected, selected.Id);
+                    GestorDB.ActualizarDatosDescarga(selected, selected.Id);
                     Task.Run(MostrarMensajeDescarga);
                 }
                 else
@@ -77,7 +78,14 @@ namespace UI
 
         private void btnExportarXml_Click(object sender, EventArgs e)
         {
-            Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
+            try
+            {
+                Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error inesperado:{ ex.Message}");
+            }
         }
         /// <summary>
         /// Se cargan datos desde una base de datos
@@ -116,10 +124,7 @@ namespace UI
             catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            }
-
-                
-
+            }              
         }
         private void MostrarMensajeDescarga()
         {

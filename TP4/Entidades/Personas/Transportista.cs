@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Entidades.Enumerados;
 
-namespace Entidades
+namespace Entidades.Personas
 {
     public class Transportista
     {
@@ -19,37 +19,45 @@ namespace Entidades
         private DateTime fechaDescarga;
 
         #region PROPIEDADES
-        public int Id {
-            get => this.id;
-            set => this.id = value;
+        public int Id
+        {
+            get => id;
+            set => id = value;
         }
-        public string Nombre{ 
-            get => this.nombre;
-            set => this.nombre = value;
+        public string Nombre
+        {
+            get => nombre;
+            set => nombre = value;
         }
-        public string Patente { 
-            get => this.patente; 
-            set => this.patente = value;
+        public string Patente
+        {
+            get => patente;
+            set => patente = value;
         }
-        public string Cuit { 
-            get  => this.cuit;
-            set => this.cuit = value;  
+        public string Cuit
+        {
+            get => cuit;
+            set => cuit = value;
         }
-        public DateTime FechaIngreso { 
-            get => this.fechaIngreso; 
-            set => this.fechaIngreso = value; 
+        public DateTime FechaIngreso
+        {
+            get => fechaIngreso;
+            set => fechaIngreso = value;
         }
-        public long Toneladas {
-            get => this.toneladas; 
-            set => this.toneladas = value; 
+        public long Toneladas
+        {
+            get => toneladas;
+            set => toneladas = value;
         }
-        public Granos.Grano TipoGrano { 
-            get => this.tipoGrano;
-            set => this.tipoGrano = value; 
-        } 
-        public DateTime FechaDescarga {
-            get => this.fechaDescarga;  
-            set => this.fechaDescarga = value; 
+        public Granos.Grano TipoGrano
+        {
+            get => tipoGrano;
+            set => tipoGrano = value;
+        }
+        public DateTime FechaDescarga
+        {
+            get => fechaDescarga;
+            set => fechaDescarga = value;
         }
         #endregion
         public Transportista()
@@ -58,20 +66,20 @@ namespace Entidades
         }
         public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano)
         {
-            this.Cuit = cuit;
-            this.Nombre = nombre;
-            this.Patente = patente;
-            this.Toneladas = toneladas;
-            this.TipoGrano = tipoGrano;
-            this.FechaIngreso = DateTime.Now;
-            this.FechaDescarga = DateTime.MinValue;
+            Cuit = cuit;
+            Nombre = nombre;
+            Patente = patente;
+            Toneladas = toneladas;
+            TipoGrano = tipoGrano;
+            FechaIngreso = DateTime.Now;
+            FechaDescarga = DateTime.MinValue;
         }
         public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, DateTime fechaIngreso, DateTime fechaDescarga, int id)
-            :this(cuit, nombre, patente, toneladas, tipoGrano)
+            : this(cuit, nombre, patente, toneladas, tipoGrano)
         {
-            this.FechaIngreso = fechaIngreso;
-            this.FechaDescarga = fechaDescarga;
-            this.Id = id;
+            FechaIngreso = fechaIngreso;
+            FechaDescarga = fechaDescarga;
+            Id = id;
         }
 
     }

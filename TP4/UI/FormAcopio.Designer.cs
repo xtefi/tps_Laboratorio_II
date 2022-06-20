@@ -57,7 +57,7 @@ namespace UI
             this.rtbSilo1.Size = new System.Drawing.Size(162, 157);
             this.rtbSilo1.TabIndex = 0;
             this.rtbSilo1.Text = "";
-            this.rtbSilo1.TextChanged += new System.EventHandler(this.rtbSilo1_TextChanged);
+   
             // 
             // rtbSilo2
             // 

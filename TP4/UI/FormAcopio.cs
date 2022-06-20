@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Entidades;
+using Entidades.Datos;
 using Entidades.Enumerados;
 
 namespace UI
@@ -17,22 +18,23 @@ namespace UI
         Acopio silo1;
         Acopio silo2;
         Acopio silo3;
-
+        Serializadora<Acopio> serializadora;
         public FormAcopio()
         {
             InitializeComponent();
             silo1 = new Acopio();
             silo2 = new Acopio();
             silo3 = new Acopio();
+            serializadora = new Serializadora<Acopio>();
         }
         private void FormAcopio_Load(object sender, EventArgs e)
         {
             LoadItemsInCBX();
             try
             {
-                silo1 = Serializadora<Acopio>.LeerJSON("silo1.json");
-                silo2 = Serializadora<Acopio>.LeerJSON("silo2.json");
-                silo3 = Serializadora<Acopio>.LeerJSON("silo3.json");
+                silo1 = serializadora.Leer("silo1.json");
+                silo2 = serializadora.Leer("silo2.json");
+                silo3 = serializadora.Leer("silo3.json"); ;
             }
             catch(Exception ex)
             {
@@ -158,9 +160,9 @@ namespace UI
         {
             try
             {
-                Serializadora<Acopio>.GuardarJSON(silo1, "silo1.json"); 
-                Serializadora<Acopio>.GuardarJSON(silo1, "silo2.json");
-                Serializadora<Acopio>.GuardarJSON(silo1, "silo3.json");
+                serializadora.Guardar(silo1, "silo1.json");
+                serializadora.Guardar(silo2, "silo2.json");
+                serializadora.Guardar(silo3, "silo3.json");
             }
             catch (Exception ex)
             {
@@ -171,11 +173,6 @@ namespace UI
                 FormInicio frmInicio = new FormInicio();
                 frmInicio.Show();
             }
-        }
-
-        private void rtbSilo1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }  
 }

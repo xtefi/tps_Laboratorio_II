@@ -24,7 +24,7 @@ namespace Entidades
         public double Humedad { get { return this.humedad; } set { this.humedad = value; } }
         public Enumerados.Granos.Grano TipoGrano 
         { 
-            get { return tipoGrano; } 
+            get => tipoGrano;  
             set 
             {
                 this.tipoGrano = (Enumerados.Granos.Grano)value;
@@ -66,7 +66,7 @@ namespace Entidades
             {
 
                 if (toneladas <= AlmacenamientoDisponible()
-                    && toneladas > 0 && toneladas <= 1000)
+                    && toneladas > 0 && toneladas <= 1000 && humedad >=0 && humedad <= 100)
                 {
                     this.Toneladas += toneladas;
                     this.Humedad = ((humedad + this.Humedad) / 2);
@@ -81,18 +81,20 @@ namespace Entidades
             }
         }
         /// <summary>
-        /// Vacía los silos
+        /// Vacía el silo
         /// </summary>
         /// <param name="toneladas"></param>
-        /// <returns></returns>
-        public void VaciarSilo(int toneladas)
+        /// <returns> 0 si descuenta toneladas // 1 si no descuenta toneladas</returns>
+        public int VaciarSilo(int toneladas)
         {
             try
             {
                 if (this.Toneladas > 0 && toneladas <= this.Toneladas)
                 {
-                    this.Toneladas -= toneladas;                    
+                    this.Toneladas -= toneladas;
+                    return 0;
                 }
+                else return 1;
             }
             catch
             {

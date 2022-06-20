@@ -7,14 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Entidades;
+using Entidades.Datos;
 using Entidades.Enumerados;
+using Entidades.Personas;
 
 namespace UI
 {
     public partial class FormNuevoTransportista : Form
     {
-        public List<Transportista> transportistas;
+        private List<Transportista> transportistas;
         public FormNuevoTransportista()
         {
             InitializeComponent();

@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 using System.Xml;
 using System.Text.Json;
+using Entidades.Personas;
 
-namespace Entidades
+namespace Entidades.Datos
 {
-    public class Serializadora <T> where T : class
+    public class Serializadora<T> : IArchivos<T> where T : class
     {
         public static void GuardarXml(T objeto, string path)
         {
@@ -19,14 +20,14 @@ namespace Entidades
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(T));
                 xmlTextW.Formatting = Formatting.Indented;
-                
+
                 serializer.Serialize(xmlTextW, objeto);
             }
         }
         public static List<Transportista> LeerXml(string path)
         {
             //using(StreamReader sr = new StreamReader(path))
-            using(XmlTextReader xmlReader = new XmlTextReader(path))
+            using (XmlTextReader xmlReader = new XmlTextReader(path))
             {
                 List<Transportista> listaTransportistas;
                 XmlSerializer serializer = new XmlSerializer(typeof(T));
@@ -34,8 +35,12 @@ namespace Entidades
                 return listaTransportistas;
             }
         }
-
-        public static void GuardarJSON(T objeto, string path)
+        /// <summary>
+        /// Guarda archivos en formato JSON
+        /// </summary>
+        /// <param name="objeto"></param>
+        /// <param name="path"></param>
+        public void Guardar(T objeto, string path)
         {
             try
             {
@@ -50,11 +55,15 @@ namespace Entidades
             }
             catch
             {
-
+                throw;
             }
         }
-
-        public static T LeerJSON(string path)
+        /// <summary>
+        /// Lee archivos en formato JSON
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
+        public T Leer(string path)
         {
             string json = Archivador.Leer(path);
             return JsonSerializer.Deserialize<T>(json);

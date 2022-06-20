@@ -4,8 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using Entidades.Personas;
 
-namespace Entidades
+namespace Entidades.Datos
 {
     public class GestorDB
     {
@@ -13,7 +14,7 @@ namespace Entidades
 
         static GestorDB()
         {
-            GestorDB.cadenaConexion = "Server=.;Database=ServiciosAgropecuarios;Trusted_Connection=True;";
+            cadenaConexion = "Server=.;Database=ServiciosAgropecuarios;Trusted_Connection=True;";
 
         }
         /// <summary>
@@ -26,7 +27,7 @@ namespace Entidades
             try
             {
                 string query = "SELECT * FROM Transportistas";
-                using (SqlConnection conexion = new SqlConnection(GestorDB.cadenaConexion))
+                using (SqlConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     SqlCommand cmd = new SqlCommand(query, conexion);
                     conexion.Open();
@@ -62,7 +63,7 @@ namespace Entidades
             SqlConnection conexion = null;
             try
             {
-                conexion = new SqlConnection(GestorDB.cadenaConexion);
+                conexion = new SqlConnection(cadenaConexion);
                 conexion.Open();
                 SqlCommand cmd = new SqlCommand(query, conexion);
                 cmd.Parameters.AddWithValue("nombre", transportista.Nombre);
@@ -95,7 +96,7 @@ namespace Entidades
             string query = "update Transportistas set toneladas=@toneladas, fechaDescarga=@fechaDescarga where id = @id";
             try
             {
-                using(SqlConnection conexion = new SqlConnection(GestorDB.cadenaConexion))
+                using (SqlConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     SqlCommand cmd = new SqlCommand(query, conexion);
                     cmd.Parameters.AddWithValue("id", id);
@@ -106,11 +107,11 @@ namespace Entidades
 
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 throw;
             }
         }
     }
-    
+
 }
