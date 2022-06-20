@@ -19,7 +19,7 @@ namespace Entidades
             this.tipo = tipo;
         }
 
-        public void Escribir(T dato, string path)
+        public void Escribir(T dato, string path, bool pisarDatos)
         {
             try
             {
@@ -44,7 +44,7 @@ namespace Entidades
                     if(Path.GetExtension(path) == ".json")
                     {
                         Archivador archivador = new Archivador();
-                        archivador.Escribir(JsonSerializer.Serialize(dato, typeof(T)), path);
+                        archivador.Escribir1(JsonSerializer.Serialize(dato, typeof(T)), path, pisarDatos);
                     }
                     else
                     {
@@ -82,7 +82,7 @@ namespace Entidades
                     if(Path.GetExtension(path) == ".json")
                     {
                         Archivador archivador = new Archivador();
-                        return JsonSerializer.Deserialize<T>(archivador.Leer(path));
+                        return JsonSerializer.Deserialize<T>(archivador.Leer1(path));
                     }
                     else
                     {
@@ -94,6 +94,6 @@ namespace Entidades
             {
                 throw;
             }
-        }
+        }       
     }
 }

@@ -160,9 +160,9 @@ namespace UI
         {
             try
             {
-                serializador.Escribir(silo1, "silo1.json");
-                serializador.Escribir(silo2, "silo2.json");
-                serializador.Escribir(silo3, "silo3.json");
+                serializador.Escribir(silo1, "silo1.json", false);
+                serializador.Escribir(silo2, "silo2.json", false);
+                serializador.Escribir(silo3, "silo3.json", false);
             }
             catch (Exception ex)
             {

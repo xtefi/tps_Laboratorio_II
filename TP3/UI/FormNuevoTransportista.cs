@@ -14,12 +14,12 @@ namespace UI
 {
     public partial class FormNuevoTransportista : Form
     {
-        Serializador<Transportista> serializador;
+        Serializadora<Transportista> serializadora;
         public FormNuevoTransportista()
         {
             InitializeComponent();
             CargarCMB();
-            serializador = new Serializador<Transportista>(IArchivos<Transportista>.ETipoArchivo.JSON);
+            serializadora = new Serializadora<Transportista>();
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -29,7 +29,8 @@ namespace UI
                 if (txtCuit.TextLength != 0 && txtNombre.TextLength != 0 && txtPatente.TextLength != -1 && cmbTipoCereal.SelectedIndex != -1)
                 {
                     Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano(), Convert.ToInt64(numPrecio.Value));
-                    serializador.Escribir(tr, "transportistas.json");
+                    
+                    serializadora.GuardarJSON(tr, "transportistas.json");
                     this.Close();
                 }
                 else
