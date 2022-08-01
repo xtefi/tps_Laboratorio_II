@@ -18,7 +18,7 @@ namespace Entidades
         private long precioTonelada;
         private DateTime fechaDescarga;
 
-        public string Nombre { get { return this.nombre; } }
+        public string Nombre { get { return this.nombre; } set { this.nombre = value; } }
         public string Patente { get { return this.patente; } }
         public string Cuit { get { return this.cuit; } }
         public DateTime FechaIngreso { get { return this.fechaIngreso; } }
@@ -30,6 +30,10 @@ namespace Entidades
         }
         public DateTime FechaDescarga { get { return this.fechaDescarga; } set { this.fechaDescarga = value; } }
 
+        public Transportista()
+        {
+
+        }
         public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, long precioTonelada)
         {
             this.cuit = cuit;

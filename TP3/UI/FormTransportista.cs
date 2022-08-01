@@ -14,23 +14,21 @@ namespace UI
 {
     public partial class FormTransportista : Form
     {
-        public List<Transportista> tr = new List<Transportista>();
-        Serializador<Transportista> serializador;
-
+        public List<Transportista> tr;
+        private Serializadora<List<Transportista>> sr = new Serializadora<List<Transportista>>();  
         public FormTransportista()
         {
             InitializeComponent();
-            serializador = new Serializador<Transportista>(IArchivos<Transportista>.ETipoArchivo.JSON);
+            tr = new List<Transportista>(); 
         }
 
         private void FormTransportista_Load(object sender, EventArgs e)
         {
-            HardCodeInfo();
+            //HardCodeInfo();
+            CargarXml();
 
-        }
+            //CargarJSON();
 
-        private void dgTransportistas_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
         }
 
@@ -58,6 +56,7 @@ namespace UI
 
         private void HardCodeInfo()
         {
+
             Transportista tr2 = new Transportista("378821134", "Mordecai", "BBB123", 18, Granos.Grano.Maíz, 87);
             Transportista tr3 = new Transportista("342232", "Pedro", "CCC123", 18, Granos.Grano.Soja, 87);
             Transportista tr4 = new Transportista("23232323", "Roberto", "DDD123", 15, Granos.Grano.Trigo, 50);
@@ -68,11 +67,19 @@ namespace UI
             tr.Add(tr4);
             tr.Add(tr5);
             tr.Add(tr6);
-            serializador.Escribir(tr2, "transportistas.json");
-            serializador.Escribir(tr3, "transportistas.json");
-            serializador.Escribir(tr4, "transportistas.json");
-            serializador.Escribir(tr5, "transportistas.json");
-            serializador.Escribir(tr6, "transportistas.json");
+            Serializadora<List<Transportista>>.GuardarXml(tr, "transportistas.xml");
+            
+            //sr.GuardarJSON(tr, "transportistas.json");
+            dgTransportista.DataSource = tr;
+        }
+        private void CargarXml()
+        {
+            List<Transportista> lista = Serializadora<List<Transportista>>.LeerXml("transportistas.xml");
+            dgTransportista.DataSource = lista;
+        }
+        private void CargarJSON()
+        {
+            tr = sr.LeerJSON("transportistas.json");
             dgTransportista.DataSource = tr;
         }
     }
