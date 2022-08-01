@@ -1,0 +1,239 @@
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormMolino.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP_PrograLabo_II\RecuperatoriosTP\Tp_Nro_3\UI\obj\Debug\net5.0-windows\UI.FormPersonas.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FromPersonas.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\54113\Desktop\TP3\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FrmNuevoProductor.resources
+C:\Users\54113\Desktop\TP3\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\TP3\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\refint\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP3\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\refint\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\UI.dll.config
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Drawing.Common.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Security.AccessControl.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Security.Permissions.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\System.Windows.Extensions.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\esgomez\OneDrive - ENDAVA\Desktop\New folder\tps_Laboratorio_II\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.exe
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.dll.config
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.deps.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.runtimeconfig.dev.json
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\Microsoft.Win32.SystemEvents.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Configuration.ConfigurationManager.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Drawing.Common.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Security.AccessControl.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Security.Cryptography.ProtectedData.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Security.Permissions.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\System.Windows.Extensions.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.AccessControl.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\Entidades.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\bin\Debug\net5.0-windows\Entidades.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.AssemblyReference.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.FormAcopio.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.FormInicio.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.FormNuevoTransportista.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.FormTransportista.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.Properties.Resources.resources
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.GenerateResource.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.AssemblyInfoInputs.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.AssemblyInfo.cs
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.CoreCompileInputs.cache
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.csproj.CopyComplete
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\ref\UI.dll
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.pdb
+C:\Users\54113\Desktop\tps_laboratorio_ii\RecuperatoriosTP\TP4\UI\obj\Debug\net5.0-windows\UI.genruntimeconfig.cache
