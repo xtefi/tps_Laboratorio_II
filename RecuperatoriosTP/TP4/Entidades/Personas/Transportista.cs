@@ -16,8 +16,14 @@ namespace Entidades.Personas
         private Granos.Grano tipoGrano;
         private DateTime fechaIngreso;
         private DateTime fechaDescarga;
+        int id;
 
         #region PROPIEDADES
+        public int Id
+        {
+            get => id;
+            set => id = value;
+        }
         public string Nombre
         {
             get => nombre;

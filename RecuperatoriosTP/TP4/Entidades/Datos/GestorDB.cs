@@ -14,7 +14,7 @@ namespace Entidades.Datos
 
         static GestorDB()
         {
-            cadenaConexion = "Server=.;Database=ServiciosAgropecuarios;Trusted_Connection=True;";
+            cadenaConexion = @"Server=.\SQLEXPRESS;Database=ServiciosAgropecuarios;Trusted_Connection=True;";
         }
         /// <summary>
         /// Se lee una lista de transportistas desde una base de datos
@@ -90,15 +90,15 @@ namespace Entidades.Datos
         /// </summary>
         /// <param name="tr"> transportista a descargar</param>
         /// <param name="id"> id del transportista</param>
-        public static void ActualizarDatosDescarga(Transportista tr, string cuit)
+        public static void ActualizarDatosDescarga(Transportista tr, int id)
         {
-            string query = "update Transportistas set toneladas=@toneladas, fechaDescarga=@fechaDescarga where cuit = @cuit";
+            string query = "update Transportistas set toneladas=@toneladas, fechaDescarga=@fechaDescarga where id = @id";
             try
             {
                 using (SqlConnection conexion = new SqlConnection(cadenaConexion))
                 {
                     SqlCommand cmd = new SqlCommand(query, conexion);
-                    cmd.Parameters.AddWithValue("cuit", cuit);
+                    cmd.Parameters.AddWithValue("id", id);
                     cmd.Parameters.AddWithValue("toneladas", tr.Toneladas);
                     cmd.Parameters.AddWithValue("fechaDescarga", tr.FechaDescarga);
                     conexion.Open();

@@ -20,7 +20,17 @@ namespace Entidades
 
         public string Nombre { get { return this.nombre; } set { this.nombre = value; } }
         public string Patente { get { return this.patente; } }
-        public string Cuit { get { return this.cuit; } }
+        public string Cuit 
+        { 
+            get { return this.cuit; } 
+            set
+            {
+                if(Convert.ToInt64(value) > 0)
+                {
+                    this.cuit = value;
+                }
+            }
+        }
         public DateTime FechaIngreso { get { return this.fechaIngreso; } }
         public long Toneladas { get { return this.toneladas; } set { this.toneladas = value; } }
         public Granos.Grano TipoGrano { get { return this.tipoGrano; } }

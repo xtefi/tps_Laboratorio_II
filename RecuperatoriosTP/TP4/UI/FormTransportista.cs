@@ -51,7 +51,7 @@ namespace UI
                 {
                     selected.FechaDescarga = DateTime.Now;
                     selected.Toneladas = 0;
-                    GestorDB.ActualizarDatosDescarga(selected, selected.Cuit);
+                    GestorDB.ActualizarDatosDescarga(selected, selected.Id);
                     Task.Run(MostrarMensajeDescarga);
                 }
                 else
