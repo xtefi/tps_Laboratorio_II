@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTransportista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Transportista>
+    <Nombre>SPOCK</Nombre>
+    <Patente>ABC123</Patente>
+    <Cuit>1231231321</Cuit>
+    <FechaIngreso>2022-06-19T19:47:33.3923069-03:00</FechaIngreso>
+    <Toneladas>11</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Nombre>McCoy</Nombre>
+    <Patente>XTZ125</Patente>
+    <Cuit>213213213</Cuit>
+    <FechaIngreso>2022-06-19T19:59:10.5049626-03:00</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Nombre>JAMES T KIRK</Nombre>
+    <Patente>AA111BB</Patente>
+    <Cuit>7897987987</Cuit>
+    <FechaIngreso>2022-06-19T21:57:01.991629-03:00</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Soja</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Nombre>JON SNOW</Nombre>
+    <Patente>XTZ123</Patente>
+    <Cuit>123123</Cuit>
+    <FechaIngreso>2022-07-31T22:49:10.8246824-03:00</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+</ArrayOfTransportista>
