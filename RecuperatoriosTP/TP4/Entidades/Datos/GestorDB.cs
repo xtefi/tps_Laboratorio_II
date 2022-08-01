@@ -41,7 +41,7 @@ namespace Entidades.Datos
                         Enumerados.Granos.Grano tipoGrano = (Enumerados.Granos.Grano)reader.GetInt32(5);
                         DateTime fechaIngreso = reader.GetDateTime(6);
                         DateTime fechaDescarga = reader.GetDateTime(7);
-                        Transportista transportista = new Transportista(cuit, nombre, patente, toneladas, tipoGrano, fechaIngreso, fechaDescarga);
+                        Transportista transportista = new Transportista(cuit, nombre, patente, toneladas, tipoGrano, fechaIngreso, fechaDescarga, id);
                         datos.Add(transportista);
                     }
                 }

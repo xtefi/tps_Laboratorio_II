@@ -80,6 +80,10 @@ namespace Entidades.Personas
             FechaIngreso = fechaIngreso;
             FechaDescarga = fechaDescarga;
         }
-
+        public Transportista(string cuit, string nombre, string patente, long toneladas, Granos.Grano tipoGrano, DateTime fechaIngreso, DateTime fechaDescarga, int id)
+    : this(cuit, nombre, patente, toneladas, tipoGrano, fechaIngreso, fechaDescarga)
+        {
+            this.Id = id;
+        }
     }
 }

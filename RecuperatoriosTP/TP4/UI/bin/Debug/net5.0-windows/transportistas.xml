@@ -110,4 +110,34 @@
     <TipoGrano>Girasol</TipoGrano>
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>sdfs</Nombre>
+    <Patente>345345</Patente>
+    <Cuit>sdfsf</Cuit>
+    <FechaIngreso>2022-08-01T00:02:35.9558911-03:00</FechaIngreso>
+    <Toneladas>11</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>sdfs</Nombre>
+    <Patente>345345</Patente>
+    <Cuit>sdfsf</Cuit>
+    <FechaIngreso>2022-08-01T00:02:56.5869916-03:00</FechaIngreso>
+    <Toneladas>11</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>Harry Potter</Nombre>
+    <Patente>XTZ125</Patente>
+    <Cuit>987987987</Cuit>
+    <FechaIngreso>2022-08-01T00:06:35.3157551-03:00</FechaIngreso>
+    <Toneladas>15</Toneladas>
+    <TipoGrano>Girasol</TipoGrano>
+    <FechaDescarga>2022-08-01T00:00:00-03:00</FechaDescarga>
+  </Transportista>
 </ArrayOfTransportista>
