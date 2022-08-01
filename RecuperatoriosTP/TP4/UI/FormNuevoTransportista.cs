@@ -32,7 +32,7 @@ namespace UI
                     txtPatente.TextLength != -1 && 
                     cmbTipoCereal.SelectedIndex != -1)
                 {
-                    Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano());
+                    Transportista tr = new Transportista(txtCuit.Text, txtNombre.Text, txtPatente.Text, Convert.ToInt64(numToneladas.Value), TipoGrano(), DateTime.Now, DateTime.MinValue);
                     transportistas.Add(tr);
                     Serializadora<List<Transportista>>.GuardarXml(transportistas, "transportistas.xml");
                     GestorDB.Alta(tr);

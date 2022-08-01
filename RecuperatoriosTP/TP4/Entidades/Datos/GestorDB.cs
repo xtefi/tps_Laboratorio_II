@@ -26,7 +26,7 @@ namespace Entidades.Datos
             try
             {
                 string query = "SELECT * FROM Transportistas";
-                using (SqlConnection conexion = new SqlConnection(cadenaConexion))
+                using (SqlConnection conexion = new SqlConnection(GestorDB.cadenaConexion))
                 {
                     SqlCommand cmd = new SqlCommand(query, conexion);
                     conexion.Open();
@@ -71,6 +71,7 @@ namespace Entidades.Datos
                 cmd.Parameters.AddWithValue("toneladas", transportista.Toneladas);
                 cmd.Parameters.AddWithValue("tipoGrano", transportista.TipoGrano);
                 cmd.Parameters.AddWithValue("fechaIngreso", transportista.FechaIngreso);
+                cmd.Parameters.AddWithValue("fechaDescarga", transportista.FechaDescarga);
                 cmd.ExecuteNonQuery();
             }
             catch (Exception)

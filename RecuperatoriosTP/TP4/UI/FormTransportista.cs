@@ -47,7 +47,7 @@ namespace UI
             try
             {
                 Transportista selected = dgTransportista.SelectedRows[0].DataBoundItem as Transportista;
-                if(selected.FechaDescarga == DateTime.MinValue)
+                if(selected.Toneladas > 0)
                 {
                     selected.FechaDescarga = DateTime.Now;
                     selected.Toneladas = 0;

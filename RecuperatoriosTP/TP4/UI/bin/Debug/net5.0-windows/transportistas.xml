@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTransportista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Transportista>
+    <Id>0</Id>
     <Nombre>SPOCK</Nombre>
     <Patente>ABC123</Patente>
     <Cuit>1231231321</Cuit>
@@ -10,6 +11,7 @@
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
   <Transportista>
+    <Id>0</Id>
     <Nombre>McCoy</Nombre>
     <Patente>XTZ125</Patente>
     <Cuit>213213213</Cuit>
@@ -19,6 +21,7 @@
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
   <Transportista>
+    <Id>0</Id>
     <Nombre>JAMES T KIRK</Nombre>
     <Patente>AA111BB</Patente>
     <Cuit>7897987987</Cuit>
@@ -28,6 +31,7 @@
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
   <Transportista>
+    <Id>0</Id>
     <Nombre>JON SNOW</Nombre>
     <Patente>XTZ123</Patente>
     <Cuit>123123</Cuit>
@@ -37,12 +41,73 @@
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
   <Transportista>
+    <Id>0</Id>
     <Nombre>juan</Nombre>
     <Patente>asd123</Patente>
     <Cuit>123123</Cuit>
     <FechaIngreso>2022-07-31T22:58:13.5596339-03:00</FechaIngreso>
     <Toneladas>0</Toneladas>
     <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>harry potter</Nombre>
+    <Patente>abl500</Patente>
+    <Cuit>32323232</Cuit>
+    <FechaIngreso>2022-07-31T23:47:15.7809031-03:00</FechaIngreso>
+    <Toneladas>100</Toneladas>
+    <TipoGrano>Soja</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>harry potter</Nombre>
+    <Patente>dfg345</Patente>
+    <Cuit>32323232</Cuit>
+    <FechaIngreso>2022-07-31T23:50:44.0928056-03:00</FechaIngreso>
+    <Toneladas>50</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>harry potter</Nombre>
+    <Patente>dfg345</Patente>
+    <Cuit>32323232</Cuit>
+    <FechaIngreso>2022-07-31T23:50:55.0682114-03:00</FechaIngreso>
+    <Toneladas>50</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>ron weasly</Nombre>
+    <Patente>jkl</Patente>
+    <Cuit>5646465</Cuit>
+    <FechaIngreso>2022-07-31T23:53:30.2693317-03:00</FechaIngreso>
+    <Toneladas>18</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>albus dumbledore</Nombre>
+    <Patente>rty345</Patente>
+    <Cuit>897987</Cuit>
+    <FechaIngreso>2022-07-31T23:58:22.6606665-03:00</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Girasol</TipoGrano>
+    <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>0</Id>
+    <Nombre>albus dumbledore</Nombre>
+    <Patente>rty345</Patente>
+    <Cuit>897987</Cuit>
+    <FechaIngreso>2022-07-31T23:58:32.0353516-03:00</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Girasol</TipoGrano>
     <FechaDescarga>0001-01-01T00:00:00</FechaDescarga>
   </Transportista>
 </ArrayOfTransportista>
