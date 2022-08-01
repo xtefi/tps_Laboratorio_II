@@ -1,43 +1,103 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfTransportista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Transportista>
-    <Id>0</Id>
+    <Id>1</Id>
+    <Nombre>Spock</Nombre>
+    <Patente>ABC123</Patente>
+    <Cuit>29170001239</Cuit>
+    <FechaIngreso>2022-06-19T12:38:00</FechaIngreso>
+    <Toneladas>18</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>9999-09-09T12:38:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>2</Id>
+    <Nombre>James Kirk</Nombre>
+    <Patente>AAA123</Patente>
+    <Cuit>30171111239</Cuit>
+    <FechaIngreso>2022-06-19T12:08:00</FechaIngreso>
+    <Toneladas>19</Toneladas>
+    <TipoGrano>Maíz</TipoGrano>
+    <FechaDescarga>9999-09-09T12:38:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>3</Id>
+    <Nombre>Mr Sulu</Nombre>
+    <Patente>VVV123</Patente>
+    <Cuit>31172221239</Cuit>
+    <FechaIngreso>2022-06-19T12:18:00</FechaIngreso>
+    <Toneladas>15</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>9999-09-09T12:38:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>4</Id>
+    <Nombre>Mc Coy</Nombre>
+    <Patente>AA123BC</Patente>
+    <Cuit>32173331239</Cuit>
+    <FechaIngreso>2022-06-19T12:28:00</FechaIngreso>
+    <Toneladas>12</Toneladas>
+    <TipoGrano>Soja</TipoGrano>
+    <FechaDescarga>9999-09-09T12:38:00</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>5</Id>
     <Nombre>Darth Vader</Nombre>
     <Patente>ABC123</Patente>
     <Cuit>29321321328</Cuit>
-    <FechaIngreso>2022-08-01T09:31:19.821583-03:00</FechaIngreso>
+    <FechaIngreso>2022-08-01T09:31:19.82</FechaIngreso>
     <Toneladas>12</Toneladas>
     <TipoGrano>Trigo</TipoGrano>
-    <FechaDescarga>9999-12-31T23:59:59.9999999</FechaDescarga>
+    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
   </Transportista>
   <Transportista>
-    <Id>0</Id>
+    <Id>6</Id>
     <Nombre>Leia Organa</Nombre>
     <Patente>XTZ125</Patente>
     <Cuit>27246549878</Cuit>
-    <FechaIngreso>2022-08-01T09:32:04.0129627-03:00</FechaIngreso>
-    <Toneladas>11</Toneladas>
+    <FechaIngreso>2022-08-01T09:32:04.013</FechaIngreso>
+    <Toneladas>0</Toneladas>
     <TipoGrano>Maíz</TipoGrano>
-    <FechaDescarga>9999-12-31T23:59:59.9999999</FechaDescarga>
+    <FechaDescarga>2022-08-01T09:37:36.853</FechaDescarga>
   </Transportista>
   <Transportista>
-    <Id>0</Id>
+    <Id>7</Id>
     <Nombre>Luke Skywalker</Nombre>
     <Patente>AA123BB</Patente>
     <Cuit>296549877</Cuit>
-    <FechaIngreso>2022-08-01T09:33:25.055227-03:00</FechaIngreso>
+    <FechaIngreso>2022-08-01T09:33:25.057</FechaIngreso>
     <Toneladas>13</Toneladas>
     <TipoGrano>Soja</TipoGrano>
-    <FechaDescarga>9999-12-31T23:59:59.9999999</FechaDescarga>
+    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
   </Transportista>
   <Transportista>
-    <Id>0</Id>
+    <Id>8</Id>
     <Nombre>Master Yoda</Nombre>
     <Patente>BB456CC</Patente>
     <Cuit>11231111</Cuit>
-    <FechaIngreso>2022-08-01T09:34:53.4319791-03:00</FechaIngreso>
+    <FechaIngreso>2022-08-01T09:34:53.433</FechaIngreso>
     <Toneladas>11</Toneladas>
     <TipoGrano>Girasol</TipoGrano>
-    <FechaDescarga>9999-12-31T23:59:59.9999999</FechaDescarga>
+    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>9</Id>
+    <Nombre>asd</Nombre>
+    <Patente>234</Patente>
+    <Cuit>234</Cuit>
+    <FechaIngreso>2022-08-01T09:40:28.55</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
+  </Transportista>
+  <Transportista>
+    <Id>10</Id>
+    <Nombre>Luke Skywalker</Nombre>
+    <Patente>ABC132</Patente>
+    <Cuit>98765432112</Cuit>
+    <FechaIngreso>2022-08-01T09:43:51.847</FechaIngreso>
+    <Toneladas>10</Toneladas>
+    <TipoGrano>Trigo</TipoGrano>
+    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
   </Transportista>
 </ArrayOfTransportista>

@@ -97,8 +97,8 @@ namespace UI
         {
             try
             {
-                List<Transportista> lista = GestorDB.LeerDatos();
-                dgTransportista.DataSource = lista;
+                transportistas = GestorDB.LeerDatos();
+                dgTransportista.DataSource = transportistas;
             }
             catch(Exception ex)
             {
