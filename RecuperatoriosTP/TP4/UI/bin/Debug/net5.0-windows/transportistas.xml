@@ -76,9 +76,9 @@
     <Patente>BB456CC</Patente>
     <Cuit>11231111</Cuit>
     <FechaIngreso>2022-08-01T09:34:53.433</FechaIngreso>
-    <Toneladas>11</Toneladas>
+    <Toneladas>0</Toneladas>
     <TipoGrano>Girasol</TipoGrano>
-    <FechaDescarga>9999-12-31T23:59:59.997</FechaDescarga>
+    <FechaDescarga>2022-08-01T09:50:24.413</FechaDescarga>
   </Transportista>
   <Transportista>
     <Id>9</Id>
